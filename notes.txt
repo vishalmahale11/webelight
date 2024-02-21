@@ -1,0 +1,20 @@
+#### FOR BACKEND ####
+
+1.Connection to MongoDB and Basic folder Setup
+2.Stucture 
+    Home Page
+    Login Page/Sign Up page
+    PRODUCT Page
+    Cart Page
+    Payment Page
+    History of Orders Page
+    Success Page
+
+#### FOR FRONTEND ####
+
+1.Home Page/Landing Page
+2.Product Listing page with filtering functionality
+3.Add to Cart functionality
+4.Checkout
+5.Mock Payment
+6.Orders History Page
