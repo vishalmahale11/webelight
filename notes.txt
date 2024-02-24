@@ -2,13 +2,13 @@
 
 1.Connection to MongoDB and Basic folder Setup
 2.Stucture 
-    Home Page
-    Login Page/Sign Up page
-    PRODUCT Page
-    Cart Page
-    Payment Page
-    History of Orders Page
-    Success Page
+    Login Page/Sign Up page --- Skip for Now
+    PRODUCT Page ---- Done
+    Cart Page ---- Done
+    Payment Page --- Pending
+    Place Order ---- Done
+    History of Orders Page ---- Done
+    Success Page ---- Static Done
 
 #### FOR FRONTEND ####
 

@@ -1,0 +1,92 @@
+[
+      {
+        "product_name": "Laptop",
+        "category": "Electronics",
+        "price": 10000,
+        "specs": {
+          "processor": "Intel Core i7",
+          "RAM": "16GB",
+          "storage": "512GB SSD"
+        },
+        "image_url": "https://www.seekpng.com/png/detail/41-416580_website-laptop.png"
+      },
+      {
+        "product_name": "Mobile Phone",
+        "category": "Electronics",
+        "price": 800,
+        "specs": {
+          "screen_size": "6.5 inches",
+          "camera": "Triple camera setup",
+          "battery": "4000mAh"
+        },
+        "image_url": "https://w7.pngwing.com/pngs/343/207/png-transparent-iphone-x-iphone-8-plus-iphone-7-apple-iphone-gadget-electronics-mobile-phone.png"
+      },
+      {
+        "product_name": "Tablet",
+        "category": "Electronics",
+        "price": 500,
+        "specs": {
+          "screen_size": "10.1 inches",
+          "storage": "64GB",
+          "battery": "6000mAh"
+        },
+        "image_url": "https://www.pngall.com/wp-content/uploads/2016/05/Tablet-Free-PNG-Image.png"
+      },
+      {
+        "product_name": "Airpods",
+        "category": "Electronics",
+        "price": 200,
+        "specs": {
+          "compatibility": "iOS and Android",
+          "battery_life": "Up to 5 hours",
+          "charging_case": "Included"
+        },
+        "image_url": "https://w7.pngwing.com/pngs/801/441/png-transparent-airpods-pro-thumbnail.png"
+      },
+      {
+        "product_name": "Smartwatch",
+        "category": "Wearable",
+        "price": 300,
+        "specs": {
+          "display_type": "AMOLED",
+          "sensors": "Heart rate, GPS, Accelerometer",
+          "water_resistance": "Up to 50 meters"
+        },
+        "image_url": "https://w7.pngwing.com/pngs/329/395/png-transparent-smartwatch-android-bluetooth-technical-support-watch-electronics-accessories-bluetooth.png"
+      },
+      {
+        "product_name": "Wireless Headphones",
+        "category": "Audio",
+        "price": 150,
+        "specs": {
+          "wireless_tech": "Bluetooth 5.0",
+          "noise_cancellation": "Active Noise Cancellation",
+          "playback_time": "Up to 20 hours"
+        },
+        "image_url": "https://w7.pngwing.com/pngs/68/524/png-transparent-red-wireless-headphones-wearing-headphones-red-headphones.png"
+      },
+      {
+        "product_name": "External Hard Drive",
+        "category": "Storage",
+        "price": 120,
+        "specs": {
+          "capacity": "2TB",
+          "interface": "USB 3.0",
+          "compatibility": "Windows, macOS, Linux"
+        },
+        "image_url": "https://e7.pngegg.com/pngimages/395/220/png-clipart-dell-hard-drives-external-storage-terabyte-backup-usb-electronics-adapter-thumbnail.png"
+      },
+      {
+        "product_name": "Smart Speaker",
+        "category": "Smart Home",
+        "price": 800,
+        "specs": {
+          "voice_assistant": "Amazon Alexa",
+          "connectivity": "Wi-Fi, Bluetooth",
+          "audio": "360-degree sound"
+        },
+        "image_url": "https://example.com/smart_speaker.jpg"
+      }
+    ]
+  
+  
