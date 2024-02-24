@@ -5,16 +5,17 @@
     Login Page/Sign Up page --- Skip for Now
     PRODUCT Page ---- Done
     Cart Page ---- Done
-    Payment Page --- Pending
+    Payment Page --- Done
     Place Order ---- Done
     History of Orders Page ---- Done
     Success Page ---- Static Done
 
 #### FOR FRONTEND ####
-
-1.Home Page/Landing Page
-2.Product Listing page with filtering functionality
-3.Add to Cart functionality
-4.Checkout
-5.Mock Payment
-6.Orders History Page
+1.All Products page --- Home Page
+2.Product Listing page with filtering functionality --- Category and Price filter --- Home Page
+3.Add to Cart functionality ---- Cart
+4.Cart Page ---- Cart
+4.Checkout --- At similar page --- Cart
+5.Mock Payment --- At similar page --- Cart
+6.Success Payment ---- At similar page --- Cart
+6.Orders History Page --- Recent Orders
