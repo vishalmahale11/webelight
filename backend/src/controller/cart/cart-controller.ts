@@ -23,3 +23,23 @@ export const addToCart = async (req: Request, res: Response) => {
     res.status(500).json({ success: false, error: "Internal Server Error" });
   }
 };
+
+export const getAllCartData = async (req: Request, res: Response) => {
+  try {
+    const cartItems = await CartItem.find({});
+
+    const fullDataPromises = cartItems.map(async (item) => {
+      const productId = item.product._id.toString();
+
+      const product = await ProductDatabase.findById(productId);
+      return product;
+    });
+
+    const fullData = await Promise.all(fullDataPromises);
+
+    res.json(fullData);
+  } catch (error) {
+    console.error("Error retrieving cart data:", error);
+    res.status(500).json({ success: false, error: "Internal Server Error" });
+  }
+};

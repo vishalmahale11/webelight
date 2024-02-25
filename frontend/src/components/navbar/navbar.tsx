@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import { AppBar, Toolbar, Typography, Button } from "@mui/material";
 import { MdHistory } from "react-icons/md";
 import { FaShoppingCart, FaHome } from "react-icons/fa";
+import { useAppSelector } from "../../Redux/store";
 
 const Navbar: React.FC = () => {
+  const { cartData } = useAppSelector((store) => store.cartSlice);
   return (
     <AppBar position="static">
       <Toolbar>

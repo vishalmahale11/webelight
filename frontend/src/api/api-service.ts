@@ -79,3 +79,16 @@ export const addToCart = async (
     console.error(error);
   }
 };
+
+export const allcartData = async () => {
+  try {
+    let response: apiResponse = await AXIOS.get(`/cart/get-cart-data`);
+    if (!response) {
+      throw response;
+    } else {
+      return response;
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
