@@ -10,7 +10,7 @@ import { Button } from "@mui/material";
 
 interface cartProps {
   dataofCart: singleCardData;
-  handleCount: (_id: string) => void;
+  handleCount: (_id: string, action: "increment" | "decrement") => void;
   quantity: number;
 }
 
@@ -19,7 +19,6 @@ const CartCard: React.FC<cartProps> = ({
   handleCount,
   quantity,
 }) => {
-  
   return (
     <div className={styles.cartContainer}>
       <Card sx={{ display: "flex" }}>
@@ -55,14 +54,14 @@ const CartCard: React.FC<cartProps> = ({
           }}
         >
           <Button
-            onClick={() => handleCount(dataofCart._id)}
+            onClick={() => handleCount(dataofCart._id, "decrement")}
             variant="outlined"
           >
             -
           </Button>
           <Typography>{quantity ? quantity : 1}</Typography>
           <Button
-            onClick={() => handleCount(dataofCart._id)}
+            onClick={() => handleCount(dataofCart._id, "increment")}
             variant="outlined"
           >
             +

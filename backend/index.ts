@@ -16,8 +16,8 @@ const PORT = process.env.PORT || 3000;
 // ALL ROUTES //
 app.use("/products", productRoute);
 app.use("/cart", CartItemroute);
-app.use("/order", orderRoute)
-app.use("/payment", paymentRouter)
+app.use("/order", orderRoute);
+app.use("/payment", paymentRouter);
 
 // MONGODB MAIN CONNECTION //
 app.listen(PORT, async () => {
