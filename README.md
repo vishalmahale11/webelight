@@ -18,6 +18,12 @@ Ecommerce project where we can purchase the product add to cart and filter funct
 - Checkout
 - Order History
 
+## Time Spent
+
+- Frontend -- 2 days
+- Backend -- 2 days
+- Total -- 4 days
+
 ## Usage
 
 - For Frontend
