@@ -1,10 +1,7 @@
 # Project Name
 
-Description of your project goes here.
+Webelight Assignment 
 
-## Table of Contents
-
-- [Project Name](#webelight-assignment-ecom-project)
 
 ## About
 
